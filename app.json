@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/index",
+    "pages/mine/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "KG",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#1886FA",
+    "backgroundColor": "#fff",
+    "borderStyle": "#D2D2D2",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabicon/home0.png",
+        "selectedIconPath": "images/tabicon/home1.png"
+      },
+      {
+        "pagePath": "pages/news/index",
+        "text": "快讯",
+        "iconPath": "images/tabicon/air0.png",
+        "selectedIconPath": "images/tabicon/air1.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "images/tabicon/mine0.png",
+        "selectedIconPath": "images/tabicon/mine1.png"
+      }
+    ]
+  }
+}
