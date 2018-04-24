@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/news/index",
-    "pages/mine/index"
+    "pages/mine/index",
+    "component/modal/modal"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,7 +1,0 @@
-<template name="header">
-<view class='haderwarp'>
-  <view class='ring'></view>
-  <view class='logo'></view>
-  <view class='search'></view>
-</view>
-</template>
