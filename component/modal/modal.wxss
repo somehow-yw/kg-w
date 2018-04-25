@@ -1,5 +1,5 @@
 .header{
-  height: 44px;
+  padding: 12px 0;
   width: 100%;
   display: inline-flex;
   justify-content: space-between;
@@ -10,6 +10,7 @@
 .header image:first-child {
   width: 18px;
   height: 20px;
+  margin-left: 12px;
 }
 .header image:nth-child(2) {
   width: 44px;
@@ -18,4 +19,5 @@
 .header image:nth-child(3) {
   width: 19px;
   height: 19px;
+   margin-right: 12px;
 }

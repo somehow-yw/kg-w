@@ -1,23 +1,37 @@
 Page({
   data: {
     imgUrls: [
-      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
+      'https://kgcom.oss-cn-shenzhen.aliyuncs.com/17609/425326308428488704.png',
+      'https://kgcom.oss-cn-shenzhen.aliyuncs.com/17609/425326457909288960.png',
+      'https://kgcom.oss-cn-shenzhen.aliyuncs.com/17609/425326390334857216.png'
     ],
     indicatorDots: true,
     autoplay: true,
     interval: 5000,
-    duration: 1000
+    duration: 1000,
+    currentMenu: 1,
+    menus: [{
+      value: 0,
+      label: "推荐"
+    }, {
+      value: 1,
+      label: "区块链"
+    }, {
+      value: 2,
+      label: "新金融"
+    }, {
+      value: 3,
+      label: "宏观"
+    }, {
+      value: 4,
+      label: "股票"
+    }],
+    active: 0
   },
-  intervalChange: function (e) {
+  menusTap (e) { // 点击nav
+    console.log('e', e)
     this.setData({
-      interval: e.detail.value
-    })
-  },
-  durationChange: function (e) {
-    this.setData({
-      duration: e.detail.value
+      active: e.currentTarget.dataset.name
     })
   }
 })

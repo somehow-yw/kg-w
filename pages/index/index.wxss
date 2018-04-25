@@ -1,3 +1,23 @@
-.index {
-  color: red;
+
+/*width 1rpx 表示屏幕宽度的 1/750 大小 1rem表示屏幕宽度的 1/20 大小。 宽度使用 rpx 而高度使用 rem */
+swiper {height: 450rpx;}
+swiper image {width: 100%;}
+.nav {
+  width: 100%;
+  padding: 7rpx 0;
+  display: inline-flex;
+  justify-content: space-between;
+  font-family:'PingFangSC-Regular'!important;
+  font-size: 14px;
+  border-top: 1rpx solid rgba(210,210,210,1);
+}
+.nav text:first-child{
+  margin-left: 20rpx;
+}
+.nav text:last-child{
+  margin-right: 20rpx;
+}
+.nav .active {
+  color: rgba(24,134,250,1);
+  border-bottom: 3px solid rgba(24,134,250,1)
 }
